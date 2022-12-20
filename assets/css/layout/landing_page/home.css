@@ -2,12 +2,11 @@
   width: 100%;
   position: relative;
   background-color: var(--secundary-color);
-  padding-bottom: 20rem;
-  margin-top: 9rem;
+  padding-bottom: 15rem;
 }
 
 .carousel-item {
-  height: calc(100vh - 10rem);
+  height: calc(100vh - 5rem);
 }
 
 main #home .carousel-item::after {
@@ -44,7 +43,7 @@ main #home .carousel-item::after {
 
 .carousel-item .carousel-caption {
   position: absolute;
-  top: calc(100vh / 8);
+  top: calc(100vh / 3);
   height: 0;
   padding: 0;
   z-index: 20;
@@ -53,7 +52,7 @@ main #home .carousel-item::after {
 .carousel-item .carousel-caption h1 {
   display: block;
   color: var(--text-white);
-  font-size: 22rem;
+  font-size: 13rem;
   font-weight: 700;
   text-shadow: 7px 7px #ffffff77;
 }
@@ -66,7 +65,7 @@ main #home .carousel-item::after {
 
 @media (max-width: 1020px) {
   .carousel-item .carousel-caption h1 {
-    font-size: 15rem;
+    font-size: 10rem;
     text-shadow: 5.6px 5.6px #ffffff77;
   }
 
@@ -80,7 +79,7 @@ main #home .carousel-item::after {
     top: calc(100vh / 5);
   }
   .carousel-item .carousel-caption h1 {
-    font-size: 11rem;
+    font-size: 9rem;
     text-shadow: 4.5px 4.5px #ffffff77;
   }
 
