@@ -4,10 +4,20 @@
   display: none;
 }
 
+@media (max-width: 1185px) {
+  .logo__span {
+    display: none;
+  }
+}
+
 @media (max-width: 900px) {
   .header__navegation,
   .link__hidden {
     display: none;
+  }
+
+  .logo__span {
+    display: inline;
   }
 
   .link__toggle {

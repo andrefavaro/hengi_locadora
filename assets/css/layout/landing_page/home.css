@@ -5,6 +5,24 @@
   padding-bottom: 15rem;
 }
 
+.whatsapp__link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  font-size: 42px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 60px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.whatsapp__link:hover {
+  color: black;
+}
+
 .carousel-item {
   height: calc(100vh - 5rem);
 }
