@@ -5,9 +5,13 @@
   justify-content: center;
   width: 100%;
   height: 8rem;
-  background-color: var(--secundary-color);
+  background-color: var(--text-white);
   z-index: 5000;
   transition: all 0.3s ease-in-out;
+}
+
+.logo__image {
+  height: 100%;
 }
 
 .header.scroll {
@@ -17,8 +21,8 @@
 }
 
 .header__content {
-  width: 100%;
   max-width: 1300px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,16 +30,7 @@
 }
 
 .header__logo {
-  color: var(--primary-color);
-  font-size: 2.8rem;
-}
-
-.header__logo.on {
-  color: var(--secundary-color);
-}
-
-.header.scroll .header__logo {
-  color: var(--secundary-color);
+  height: 100%;
 }
 
 .header__list {
@@ -47,7 +42,7 @@
 }
 
 .header__link {
-  color: var(--primary-color);
+  color: var(--text-black);
   font-size: 2rem;
   font-weight: 700;
   display: flex;
@@ -66,7 +61,7 @@
 }
 
 .header__link:hover {
-  color: var(--text-white);
+  color: var(--primary-color);
   opacity: 0.8;
 }
 

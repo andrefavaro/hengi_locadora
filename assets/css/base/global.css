@@ -3,18 +3,13 @@
 
 :root {
   --background-color: #fafff8;
-  --primary-color: #cc2649;
-  --secundary-color: #89abb4;
+  --primary-color: #f2cc49;
+  --secundary-color: #2d1c28;
   --text-white: #f9f5ff;
   --text-black: #2d2d2d;
   --check-icon-color: #6be381;
   --hover: #00670f;
   --btn-hover: #00ac1a;
-
-  --logo-dashboard: #cc2649;
-  --span-logo-dashboard: #292522;
-
-  --span-logo: #292522;
 
   --primary-font: "Roboto", sans-serif;
   --secundary-font: "Poppins", sans-serif;
