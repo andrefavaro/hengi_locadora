@@ -39,20 +39,4 @@ btn.addEventListener("click", function (e) {
       );
     }
   }
-
-  // Envio do email
-  if (checkInputs()) {
-    Email.send({
-      Host: "smtp.elasticemail.com",
-      Username: "@gmail.com",
-      Password: "",
-      To: "@gmail.com",
-      From: "@gmail.com",
-      Subject: subject,
-      Body: `Name: ${name} <br/> 
-      Email: ${email} <br/> <br/> 
-      Subject: ${subject} <br/> 
-      Message: ${message}`,
-    }).then((message) => alert("Email enviado com sucesso"));
-  }
 });

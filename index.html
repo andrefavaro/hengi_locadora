@@ -770,7 +770,16 @@
         </div>
 
         <div class="contact__content">
-          <form class="contact__form" method="post">
+          <form
+            action="https://formsubmit.co/andre@hengilocadora.com.br"
+            class="contact__form"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_next"
+              value="https://andrefavaro.github.io/hengi_locadora/"
+            />
             <div class="form__first-line">
               <input
                 class="form__name"
@@ -821,7 +830,11 @@
               required
             ></textarea>
 
-            <button class="button button--animate form__button" id="btn">
+            <button
+              class="button button--animate form__button"
+              id="btn"
+              type="submit"
+            >
               Enviar
               <span class="button__span"></span>
             </button>
@@ -903,7 +916,6 @@
 
     <script src="./assets/js/menu-toggle.js"></script>
     <script src="./assets/js/main.js"></script>
-    <script src="./services/send_email.js"></script>
     <script src="./assets/js/see_more.js"></script>
 
     <!-- Separate Popper and Bootstrap JS -->

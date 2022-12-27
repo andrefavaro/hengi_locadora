@@ -20,8 +20,11 @@
 .form__email,
 .form__subject,
 .form__message {
-  background: var(--secundary-color);
+  background: var(--text-white);
   border-radius: 1px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
   outline: none;
   padding: 1.6rem;
   margin-bottom: 1rem;
