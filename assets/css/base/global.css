@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap");
 
 :root {
   --background-color: #fafff8;
@@ -11,8 +10,8 @@
   --hover: #00670f;
   --btn-hover: #00ac1a;
 
-  --primary-font: "Roboto", sans-serif;
-  --secundary-font: "Poppins", sans-serif;
+  --primary-font: "Exo 2", sans-serif;
+  --secundary-font: "Exo 2", sans-serif;
 }
 
 html {

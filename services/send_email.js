@@ -39,4 +39,18 @@ btn.addEventListener("click", function (e) {
       );
     }
   }
+
+  // Envio do email
+  if (checkInputs()) {
+    Email.send({
+      SecureToken: "c96a16e8-9e97-459d-882f-ecefd716e98a",
+      To: "andre@hengilocadora.com.br",
+      From: "andre@hengilocadora.com.br",
+      Subject: subject,
+      Body: `Name: ${name} <br/> 
+      Email: ${email} <br/> <br/> 
+      Subject: ${subject} <br/> 
+      Message: ${message}`,
+    }).then((message) => alert("Email enviado com sucesso"));
+  }
 });
