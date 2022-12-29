@@ -72,14 +72,14 @@ main #home .carousel-item::after {
   color: var(--text-white);
   font-size: 13rem;
   font-weight: 700;
-  text-shadow: 3px 3px #000;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.004);
 }
 
 .carousel-item .carousel-caption p {
   color: var(--text-white);
   font-size: 4.2rem;
   font-weight: 700;
-  text-shadow: 3px 3px #000;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.004);
 }
 
 @media (max-width: 1020px) {

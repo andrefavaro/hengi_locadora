@@ -28,6 +28,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-black);
   font-family: var(--primary-font);
+  text-rendering: optimizeLegibility;
 }
 
 main {
