@@ -19,9 +19,15 @@
   flex-wrap: wrap;
 }
 
+.benefits__list {
+  list-style-type: circle;
+  margin-left: 2rem;
+  color: black;
+}
+
 .benefits__card {
-  max-width: 400px;
-  height: 200px;
+  width: 400px;
+  min-height: 200px;
   background-color: var(--background-color);
   border-radius: 30px;
   padding: 3rem 2rem 1.5rem;
