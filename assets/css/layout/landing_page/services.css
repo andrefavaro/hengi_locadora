@@ -99,6 +99,11 @@
   width: 100%;
 }
 
+.list__service {
+  margin-bottom: 0.8rem;
+  text-align: left;
+}
+
 .item__text-box ul {
   width: 100%;
 }
