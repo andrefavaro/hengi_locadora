@@ -20,6 +20,46 @@
   transition: all 0.3s ease-in-out;
 }
 
+.header__list ul {
+  position: absolute;
+}
+
+.dropdown__list {
+  display: none;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.dropdown__item {
+  border: 1px solid black;
+  background-color: white;
+  padding: 3px;
+}
+
+.dropdown__item a {
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 100%;
+  color: var(--text-black);
+}
+
+.dropdown__item:hover {
+  background-color: var(--primary-color);
+}
+
+.dropdown__item a:hover {
+  font-weight: 500;
+  color: red;
+}
+
+.dropdown__item:last-child {
+  border-bottom: none;
+}
+
+.header__list li:hover ul {
+  display: block;
+}
+
 .header__content {
   max-width: 1300px;
   height: 100%;
